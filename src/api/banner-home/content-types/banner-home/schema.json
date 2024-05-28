@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_homes",
+  "info": {
+    "singularName": "banner-home",
+    "pluralName": "banner-homes",
+    "displayName": "Banner-Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

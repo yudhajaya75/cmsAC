@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pakets",
+  "info": {
+    "singularName": "paket",
+    "pluralName": "pakets",
+    "displayName": "Package",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "price": {
+      "type": "float"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variant.fitur"
+    },
+    "access": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "isPopular": {
+      "type": "boolean"
+    },
+    "eventDate": {
+      "type": "date"
+    }
+  }
+}

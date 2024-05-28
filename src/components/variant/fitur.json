@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_variant_fiturs",
+  "info": {
+    "displayName": "fitur",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

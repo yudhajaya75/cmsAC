@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gallery_tentang_konselings",
+  "info": {
+    "singularName": "gallery-tentang-konseling",
+    "pluralName": "gallery-tentang-konselings",
+    "displayName": "Tentang Chillwise",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}

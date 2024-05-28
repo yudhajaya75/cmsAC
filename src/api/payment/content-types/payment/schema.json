@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PaymentsBank": {
+      "type": "enumeration",
+      "enum": [
+        "Bank",
+        "Electronic Money"
+      ]
+    },
+    "providerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "qrisScan": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "providerAccount": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    }
+  }
+}

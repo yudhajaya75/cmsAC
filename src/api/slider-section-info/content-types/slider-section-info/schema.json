@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slider_section_infos",
+  "info": {
+    "singularName": "slider-section-info",
+    "pluralName": "slider-section-infos",
+    "displayName": "Why Powerindo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_variant_webinars",
+  "info": {
+    "displayName": "webinar"
+  },
+  "options": {},
+  "attributes": {
+    "eventDuration": {
+      "type": "string"
+    },
+    "webinarPrice": {
+      "type": "float"
+    }
+  }
+}

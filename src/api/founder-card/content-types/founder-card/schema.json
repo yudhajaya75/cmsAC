@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "founder_cards",
+  "info": {
+    "singularName": "founder-card",
+    "pluralName": "founder-cards",
+    "displayName": "Founder  ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "text"
+    }
+  }
+}

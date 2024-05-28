@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_items_payments",
+  "info": {
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "statusPayment": {
+      "type": "enumeration",
+      "enum": [
+        "Unpaid",
+        "paid"
+      ]
+    },
+    "payment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment.payment"
+    },
+    "totalPrice": {
+      "type": "text"
+    }
+  }
+}

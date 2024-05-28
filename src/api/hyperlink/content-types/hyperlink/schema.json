@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hyperlinks",
+  "info": {
+    "singularName": "hyperlink",
+    "pluralName": "hyperlinks",
+    "displayName": "Our Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
